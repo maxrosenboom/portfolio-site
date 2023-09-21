@@ -1,0 +1,12 @@
+/* footer.module.css */
+.footer {
+    height: 80px;
+    background-color: rgb(32,28,28);
+}
+
+.footer-text {
+    padding-top: 15px;
+    text-align: center;
+    font-family: monospace;
+    color: white; 
+}

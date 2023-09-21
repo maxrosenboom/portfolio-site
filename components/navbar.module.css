@@ -1,0 +1,47 @@
+/* navbar.module.css */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    opacity: 70%;
+}
+
+.nav-button {
+    text-align: center;
+    color: white;
+    display: inline;
+    margin: 0 60px;
+    padding: 8px;
+    font-family: monospace;
+    font-size: 20px;
+}
+ 
+.nav-icons {
+    display: flex;
+    gap: 15px; 
+    position: absolute;
+    right: 30px; 
+    align-items: center; 
+}
+
+.nav-icon {
+color: white;
+font-size: 24px; 
+text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add a smooth color transition */
+}
+
+/* Define the styles for the link when hovering */
+.nav-link:hover {
+    color: cadetblue; /* Change the text color on hover */
+    /* You can add other CSS properties for additional animations */
+}

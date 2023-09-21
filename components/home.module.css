@@ -1,0 +1,163 @@
+/* home.module.css */
+.background-home {
+    background: linear-gradient(-45deg,#ff6b6b, #e4b785, #70e1f5);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.header {
+    text-align: center;
+}
+
+.intro-header {
+    padding-top: 10%;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.intro-paragraph {
+    padding-top: 2%;
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.resume-text {
+    padding-top: 2%; /* Use percentages for padding to make it more responsive */
+    padding-bottom: 0.5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px; /* Adjust font size for mobile */
+    text-align: center;
+}
+
+.resume-button {
+    padding: 5px 15px; /* Adjust padding for mobile */
+    font-size: 16px; /* Adjust font size for mobile */
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 2px solid rgb(84, 58, 58); /* White square border */
+    border-radius: 0; /* Remove border radius to make it square */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.resume-button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent white background on hover */
+    transform: scale(1.05); /* Scale up the button slightly on hover */
+}
+
+.background-experience {
+    background: #333333;
+    height: calc(50vh + 60px);
+}
+
+.background-experience h1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.cu-experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px; 
+    margin-top: 50px;
+}
+
+.cu-logo {
+    padding-right: 20px;
+    border-right: 3px solid #abbaab;
+}
+
+.cu-text h2 {
+    font-size: 20px;
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.cu-text h3 {
+    padding-left: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cu-item {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    margin-left: 10px;
+  }
+
+.line {
+    margin-left: 10px; /* Adjust margin as needed to control spacing between image and text */
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+.background-projects {
+    background: linear-gradient(to right, #A43931, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+}
+
+.background-projects h1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.background-contact {
+    background: #2c3e50;
+    height: calc(40vh + 60px);
+}
+
+.contact-box {
+    position: relative;
+    margin: auto;
+    top: 80px;
+    width: 50%; 
+    padding: 25px; 
+    height: 300px;
+}
+
+.contact-box h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: white;
+}
+
+.contact-box h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: white;
+}
+
+.contact-email a {
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+    font-size: 25px;
+    color: rgb(233, 84, 84);
+    text-decoration: underline;
+    padding-left: 150px;
+}
