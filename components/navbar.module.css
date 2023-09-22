@@ -37,11 +37,9 @@ text-decoration: none;
 .nav-link {
     color: white;
     text-decoration: none;
-    transition: color 0.3s ease; /* Add a smooth color transition */
+    transition: color 0.3s ease; 
 }
 
-/* Define the styles for the link when hovering */
 .nav-link:hover {
-    color: cadetblue; /* Change the text color on hover */
-    /* You can add other CSS properties for additional animations */
+    color: cadetblue; 
 }

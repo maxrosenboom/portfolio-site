@@ -3,10 +3,6 @@ import Link from 'next/link';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import styles from '../components/navbar.module.css';
 
-function scrollToSection() {
-    alert("barnebey")
-}
-
 export default function Header() {
     return (
       <nav className={styles['navbar']}>

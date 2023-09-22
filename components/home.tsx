@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import { FaGithub } from 'react-icons/fa';
 import styles from './home.module.css';
 
 export default function Page() {
@@ -34,6 +35,38 @@ export default function Page() {
             </div>
             <div id="projects" className={styles['background-projects']}>
                 <h1>Projects</h1>
+                <div className={styles['cards']}>
+                    <div className={styles['card-1']}>
+                        <div className={styles['chain']}>
+                            <a href="https://github.com/maxrosenboom/cocktail-recommender">
+                                <Image src='/chain.png' height={40} width={40} alt="Link to Source"></Image>
+                            </a>
+                        </div>
+                        <h2>Cocktail Recommender</h2>
+                        <h3>A website that recommends a cocktail by looking at similar ingredients to a cocktail submitted by the user.</h3>
+                        <p>REST API, scikit-learn, Flask</p>
+                    </div>
+                    <div className={styles['card-2']}>
+                        <div className={styles['chain']}>
+                            <a href="https://github.com/maxrosenboom/portfolio-site">
+                                <Image src='/chain.png' height={40} width={40} alt="Chain Icon"></Image>
+                            </a>
+                        </div>
+                        <h2>Portfolio Website</h2>
+                        <h3>You're looking at it! A simple website I've put together to showcase past and current projects and interests.</h3>
+                        <p>NodeJS, React, Next.js</p>
+                    </div>
+                    <div className={styles['card-3']}> 
+                        <div className={styles['chain']}>
+                            <a href="https://github.com/maxrosenboom/catan-game">
+                                <Image src='/chain.png' height={40} width={40} alt="Chain Icon"></Image>
+                            </a>
+                        </div>
+                        <h2>Settlers of Catan Clone</h2>
+                        <h3>A recreation of the Settlers of Catan game to learn design patterns and Object-Oriented programming.</h3>
+                        <p>Java, JavaFX</p>
+                    </div>
+                </div>
             </div>
             <div id="contact" className={styles['background-contact']}>
                 <div className={styles['contact-box']}>
