@@ -17,7 +17,7 @@ function BulletPoint() {
 function Chain() {
     return (
         <Image 
-        src="/public/chain.png"
+        src="../public/chain.png"
         height={40} 
         width={40} 
         alt="Link to Source"
