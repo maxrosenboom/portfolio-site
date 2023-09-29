@@ -10,6 +10,7 @@ function BulletPoint() {
         height={20} 
         width={20} 
         alt="Bullet"
+        unoptimized
         ></Image>
     );
 }
@@ -21,6 +22,7 @@ function Chain() {
         height={40} 
         width={40} 
         alt="Link to Source"
+        unoptimized
         ></Image>
     );
 }
