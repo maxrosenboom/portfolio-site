@@ -220,7 +220,8 @@
 
 .contact-box h1 {
     font-family: var(--font);
-    font-size: 40px;
+    font-size: 2rem;
+    padding-top: 5%;
     color: white;
     text-align: center;
 }
@@ -265,5 +266,13 @@
         text-align: center;
         font-size: 2rem;
         color: var(--text-color);
+    }
+
+    .contact-box h1 {
+        font-family: var(--font);
+        font-size: 2rem;
+        padding-top: 15%;
+        color: white;
+        text-align: center;
     }
 }
