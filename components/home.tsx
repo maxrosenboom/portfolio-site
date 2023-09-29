@@ -6,11 +6,10 @@ import styles from './home.module.css';
 function BulletPoint() {
     return (
         <Image
-        src="/bullet-point.png"
+        src="../public/bullet-point.png"
         height={20} 
         width={20} 
         alt="Bullet"
-        unoptimized
         ></Image>
     );
 }
@@ -18,11 +17,10 @@ function BulletPoint() {
 function Chain() {
     return (
         <Image 
-        src="/chain.png"
+        src="../public/chain.png"
         height={40} 
         width={40} 
         alt="Link to Source"
-        unoptimized
         ></Image>
     );
 }
