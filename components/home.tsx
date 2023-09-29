@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Image from 'next/image';
 import styles from './home.module.css';
@@ -16,7 +17,7 @@ function BulletPoint() {
 function Chain() {
     return (
         <Image 
-        src='/chain.png' 
+        src="/chain.png"
         height={40} 
         width={40} 
         alt="Link to Source"

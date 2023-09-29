@@ -212,7 +212,7 @@
 .contact-box {
     position: relative;
     margin: auto;
-    top: 30px;
+    top: 10%;
     width: 90%; 
     padding: 15px; 
     height: auto;
@@ -253,7 +253,7 @@
 
     .background-experience h1 {
         font-family: var(--font);
-        padding-top: 30%;
+        padding-top: 15%;
         text-align: center;
         font-size: 2rem;
         color: var(--text-color);
@@ -261,7 +261,7 @@
 
     .background-projects h1 {
         font-family: var(--font);
-        padding-top: 30%;
+        padding-top: 15%;
         text-align: center;
         font-size: 2rem;
         color: var(--text-color);
