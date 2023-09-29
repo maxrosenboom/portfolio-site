@@ -6,7 +6,7 @@ import styles from './home.module.css';
 function BulletPoint() {
     return (
         <Image
-        src="/public/bullet-point.png"
+        src="/bullet-point.png"
         height={20} 
         width={20} 
         alt="Bullet"
@@ -17,7 +17,7 @@ function BulletPoint() {
 function Chain() {
     return (
         <Image 
-        src="../public/chain.png"
+        src="/chain.png"
         height={40} 
         width={40} 
         alt="Link to Source"
