@@ -46,7 +46,7 @@
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     .navbar {
       height: auto; /* Adjust height for responsive navigation */
       flex-direction: column; /* Stack items vertically */

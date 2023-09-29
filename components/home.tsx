@@ -6,7 +6,7 @@ import styles from './home.module.css';
 function BulletPoint() {
     return (
         <Image
-        src="https://maxrosenboom.github.io/portfolio-site/bullet-point.png"
+        src="https://www.maxrosenboom.com/bullet-point.png"
         height={20} 
         width={20} 
         alt="Bullet"
@@ -17,7 +17,7 @@ function BulletPoint() {
 function Chain() {
     return (
         <Image 
-        src="https://maxrosenboom.github.io/portfolio-site/chain.png"
+        src="https://www.maxrosenboom.com/chain.png"
         height={40} 
         width={40} 
         alt="Link to Source"
@@ -35,7 +35,7 @@ export default function Page() {
                     <div>
                         <div className={styles['resume']}>
                             <p className={styles['resume-text']}>No time to look around?</p>
-                            <a className={styles['resume-button']} href="https://maxrosenboom.github.io/portfolio-site/maxrosenboom_resume.pdf">View my résumé</a>
+                            <a className={styles['resume-button']} href="https://www.maxrosenboom.com/maxrosenboom_resume.pdf">View my résumé</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default function Page() {
             <div id="experience" className={styles['background-experience']}>
                 <h1>Experience</h1>
                 <div className={styles['cu-experience']}>
-                    <Image className={styles['cu-logo']} src="https://maxrosenboom.github.io/portfolio-site/cu-logo.png" height={100} width={100} alt="CU Boulder Logo"></Image>
+                    <Image className={styles['cu-logo']} src="https://www.maxrosenboom.com/cu-logo.png" height={100} width={100} alt="CU Boulder Logo"></Image>
                     <div className={styles['cu-text']}>
                         <h2>Student System Administrator</h2>
                         <h3>University of Colorado, Boulder // June 2022 - May 2023</h3>
