@@ -1,7 +1,28 @@
 import React from 'react';
 import Image from 'next/image';
-import { FaGithub } from 'react-icons/fa';
 import styles from './home.module.css';
+
+function BulletPoint() {
+    return (
+        <Image
+        src="/bullet-point.png"
+        height={20} 
+        width={20} 
+        alt="Bullet"
+        ></Image>
+    );
+}
+
+function Chain() {
+    return (
+        <Image 
+        src='/chain.png' 
+        height={40} 
+        width={40} 
+        alt="Link to Source"
+        ></Image>
+    );
+}
 
 export default function Page() {
     return (
@@ -26,9 +47,9 @@ export default function Page() {
                         <h2>Student System Administrator</h2>
                         <h3>University of Colorado, Boulder // June 2022 - May 2023</h3>
                         <ul className={styles['cu-description']}>
-                            <li className={styles['cu-item']}><Image src="/bullet-point.png" height={20} width={20} alt="Bracket"></Image><span className={styles['line']}>Maintained servers using Chef and Ansible technologies.</span></li>
-                            <li className={styles['cu-item']}><Image src="/bullet-point.png" height={20} width={20} alt="Bracket"></Image><span className={styles['line']}>Built Jenkins pipelines in a Linux/Unix environment.</span></li>
-                            <li className={styles['cu-item']}><Image src="/bullet-point.png" height={20} width={20} alt="Bracket"></Image><span className={styles['line']}>Designed, deployed, and managed scalable servers and networks.</span></li>
+                            <li className={styles['cu-item']}><BulletPoint /><span className={styles['line']}>Maintained servers using Chef and Ansible technologies.</span></li>
+                            <li className={styles['cu-item']}><BulletPoint /><span className={styles['line']}>Built Jenkins pipelines in a Linux/Unix environment.</span></li>
+                            <li className={styles['cu-item']}><BulletPoint /><span className={styles['line']}>Designed, deployed, and managed scalable servers and networks.</span></li>
                         </ul>
                     </div>
                 </div>
@@ -39,7 +60,7 @@ export default function Page() {
                     <div className={styles['card-1']}>
                         <div className={styles['chain']}>
                             <a href="https://github.com/maxrosenboom/cocktail-recommender">
-                                <Image src='/chain.png' height={40} width={40} alt="Link to Source"></Image>
+                                <Chain />
                             </a>
                         </div>
                         <h2>Cocktail Recommender</h2>
@@ -49,7 +70,7 @@ export default function Page() {
                     <div className={styles['card-2']}>
                         <div className={styles['chain']}>
                             <a href="https://github.com/maxrosenboom/portfolio-site">
-                                <Image src='/chain.png' height={40} width={40} alt="Chain Icon"></Image>
+                                <Chain />
                             </a>
                         </div>
                         <h2>Portfolio Website</h2>
@@ -59,7 +80,7 @@ export default function Page() {
                     <div className={styles['card-3']}> 
                         <div className={styles['chain']}>
                             <a href="https://github.com/maxrosenboom/catan-game">
-                                <Image src='/chain.png' height={40} width={40} alt="Chain Icon"></Image>
+                                <Chain />
                             </a>
                         </div>
                         <h2>Settlers of Catan Clone</h2>
