@@ -1,17 +1,28 @@
-const projects = [
-  {
-    title: "Transaction Processing System",
-    url: "https://tps.maxrosenboom.com",
-  },
-  {
-    title: "Investment Analytics MCP",
-    url: "https://mcp.maxrosenboom.com",
-  },
-  {
-    title: "Futures Trading Algorithm",
-    url: "https://trading.maxrosenboom.com",
-  },
-]
+function Mark() {
+  return (
+    <svg
+      width="120"
+      height="24"
+      viewBox="0 0 120 24"
+      fill="none"
+      aria-hidden="true"
+      style={{ marginBottom: '1.75rem' }}
+    >
+      <line x1="0" y1="12" x2="46" y2="12" stroke="#333" strokeWidth="1" />
+      <rect
+        x="53"
+        y="5"
+        width="14"
+        height="14"
+        transform="rotate(45 60 12)"
+        stroke="#666"
+        strokeWidth="1"
+      />
+      <circle cx="60" cy="12" r="1.5" fill="#888" />
+      <line x1="74" y1="12" x2="120" y2="12" stroke="#333" strokeWidth="1" />
+    </svg>
+  )
+}
 
 function App() {
   return (
@@ -25,41 +36,13 @@ function App() {
       color: '#ffffff',
       fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
     }}>
+      <Mark />
       <h1 style={{ fontSize: '1.5rem', fontWeight: 300, letterSpacing: '0.15em', marginBottom: '0.5rem' }}>
         Max Rosenboom
       </h1>
-      <p style={{ color: '#555', fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '3rem' }}>
-        Fintech Projects
+      <p style={{ color: '#555', fontSize: '0.75rem', letterSpacing: '0.1em', textTransform: 'uppercase' }}>
+        Software Engineer
       </p>
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', width: '100%', maxWidth: '360px' }}>
-        {projects.map((project) => (
-          <a
-            key={project.title}
-            href={project.url}
-            style={{
-              display: 'block',
-              padding: '1rem 1.5rem',
-              border: '1px solid #222',
-              borderRadius: '6px',
-              color: '#888',
-              textDecoration: 'none',
-              fontSize: '0.85rem',
-              letterSpacing: '0.05em',
-              transition: 'border-color 0.2s, color 0.2s',
-            }}
-            onMouseEnter={e => {
-              e.currentTarget.style.borderColor = '#444'
-              e.currentTarget.style.color = '#fff'
-            }}
-            onMouseLeave={e => {
-              e.currentTarget.style.borderColor = '#222'
-              e.currentTarget.style.color = '#888'
-            }}
-          >
-            {project.title} →
-          </a>
-        ))}
-      </div>
     </div>
   )
 }
